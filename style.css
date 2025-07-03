@@ -1,0 +1,55 @@
+body{
+    background-color: bisque;
+    text-align: justify;
+    align-items: center;
+}
+
+nav{
+    display: flex;                
+    align-items: center;          
+    justify-content: flex-end;    
+    gap: 20px;                    
+    padding: 10px 30px;
+
+    
+}
+
+nav img{
+    width:55px;
+}
+
+.declare{
+    text-align: center;
+    margin: 50px;
+}
+
+.card-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    background-color: beige;
+    width:300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(235, 214, 195);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+
+.card:hover{
+    background-color: rgb(237, 224, 212);
+    transform: scale(1.05);
+    transition: transform  0.2s ease;
+}
