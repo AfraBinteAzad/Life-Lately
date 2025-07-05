@@ -3,6 +3,7 @@ html, body{
     cursor: pointer;
     align-items: center;
     font-family: monospace;
+    justify-content: center;
 }
 
 
@@ -78,6 +79,7 @@ nav img{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    text-decoration: none;
 }
 
 .card{
@@ -93,12 +95,29 @@ nav img{
     padding: 20px;
     border-radius: 100px;
     margin: 10px;
-
 }
 
+.card a{
+    text-decoration: none;
+    color: inherit;
+}
 
 .card:hover{
     background-color: rgb(237, 224, 212);
     transform: scale(1.05);
     transition: transform  0.2s ease;
+}
+
+.treat{
+    text-align: center;
+    margin: 50px;
+}
+
+.treat h,p{
+    margin: 50px;
+}
+
+.map{
+  text-align: center;
+  
 }
